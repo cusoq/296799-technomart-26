@@ -7,30 +7,157 @@
 
   <title>HTML Academy: Техномарт</title>
 </head>
+
 <body>
   <header>
+    <a class="header-logo">Техномарт</a>
+    <span class="header-search">Поиск</span>
+    <a class="header-cart">Корзина</a>
+    <a class="header-booking">Заказать</a>
+    <p class="header-dscription">Интернет-магазин Интернет-магазин Интернет-магазин</p>
+    <span class="phone">123456789</span>
+    <p class="address">Санкт-Петербург, Б.Конюшенная</p>
+    <a class="header-enter">Войти</a>
+    <a class="header-registration">Регистрация</a>
+    <nav class="header-menu">
+      <a class="header-menu__item">Главная</a>
+      <a class="header-menu__item" href="#">Компания</a>
+      <a class="header-menu__item" href="#">Каталог</a>
+      <a class="header-menu__item" href="#">Новости</a>
+      <a class="header-menu__item" href="#">Спецпредложения</a>
+      <a class="header-menu__item" href="#">Доставка</a>
+      <a class="header-menu__item" href="#">Контакты</a>
+    </nav>
   </header>
-  <a class="header-logo">Техномарт</a>
-  <span class="header-search">Поиск</span>
-  <a class="header-cart">Корзина</a>
-  <a class="header-booking">Заказать</a>
-  <p class="header-dscription">Интернет-магазин Интернет-магазин Интернет-магазин</p>
-  <span class="phone">123456789</span>
-  <p class="address">Санкт-Петербург, Б.Конюшенная</p>
-  <a class="header-enter">Войти</a>
-  <a class="header-registration">Регистрация</a>
-  <nav class="header-menu">
-    <a class="header-menu__item">Главная</a>
-    <a class="header-menu__item" href="#">Компания</a>
-    <a class="header-menu__item" href="#">Каталог</a>
-    <a class="header-menu__item" href="#">Новости</a>
-    <a class="header-menu__item" href="#">Спецпредложения</a>
-    <a class="header-menu__item" href="#">Доставка</a>
-    <a class="header-menu__item" href="#">Контакты</a>
-  </nav>
   <main>
     <h1 class="visually-hidden">Техномарт, главная страница</h1>
-    <div class="about-us">
+    <section class="all-goods-services">
+      <div>
+        <h2 class="visually-hidden">Все товары и услуги:</h2>
+        <button>Все популярные товары</button>
+      </div>
+      <ul>
+        <li>
+          <img src="https://via.placeholder.com/70x190" alt="материалы">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/70x190" alt="инструменты">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/70x190" alt="техника">
+        </li>
+      </ul>
+      <div class="main-slider">
+        <img src="https://via.placeholder.com/370x290" alt="Дрели">
+        <a href="catalog.html">Открыть каталог</a>
+      </div>
+      <ul>
+        <li>
+          <img src="https://via.placeholder.com/70x190" alt="скидки">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/70x190" alt="доставка">
+        </li>
+
+      </ul>
+    </section>
+    <section class="goods">
+      <div>
+        <h2>Популярные товары:</h2>
+        <button>Все популярные товары</button>
+      </div>
+      <ul>
+        <li>
+          <img src="https://via.placeholder.com/100x180" alt="bosch9000">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/100x180" alt="bosch3000">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/100x180" alt="bosch6000">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/100x180" alt="bosch2000">
+        </li>
+
+      </ul>
+    </section>
+    <section class="manufacturers">
+      <div>
+        <h2>Популярные производители:</h2>
+        <button>Все производители</button>
+      </div>
+      <ul>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="bosch">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="makita">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="dewalt">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="interskol">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="hitachi">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="lg">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="aeg">
+        </li>
+        <li>
+          <img src="https://via.placeholder.com/150x100" alt="metabo">
+        </li>
+      </ul>
+    </section>
+    <section class="services">
+      <h2>Сервисы</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <!-- Переключение абзацев сервисов на радиобаттонах: -->
+      <input class="services__radio--delivery visually-hidden" type="radio" name="point" id="service1" checked>
+      <input class="services__radio--garant visually-hidden" type="radio" name="point" id="service2">
+      <input class="services__radio--credit visually-hidden" type="radio" name="point" id="service3">
+      <div class="controls">
+        <label class="control--service1" for="service1">Доставка</label>
+        <label class="control--service2" for="service2">Гарантия</label>
+        <label class="control--service3" for="service3">Кредит</label>
+      </div>
+      <div class="">
+        <h3>
+          Доставка
+        </h3>
+        <p>
+          Про доставку sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit
+        </p>
+      </div>
+      <div class="">
+        <h3>
+          Гарантия
+        </h3>
+        <p>
+          Про гарантию sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit
+        </p>
+      </div>
+      <div class="">
+        <h3>
+          Кредит
+        </h3>
+        <p>
+          Про кредит sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure
+          dolor in reprehenderit in voluptate velit
+        </p>
+      </div>
+    </section>
+
+    <section class="about-us">
       <h2 class="about-us-title">Компания «Техномарт»</h2>
       <p class="about-us-text">Настоящий мужской шоппинг начинается здесь</p>
       <p class="about-us-delivery">Мы можем доставить ваш товар в самые отдалённые точки России! Техномарт работает со многими транспортными компаниями:</p>
@@ -40,13 +167,13 @@
         <li><a href="#">ЖелДорЭкспедиция</a></li>
       </ul>
       <a class="about-us-button">Подробнее о компании</a>
-    </div>
-    <div class="contacts">
+    </section>
+    <section class="contacts">
       <h2 class="contacts-title">Контакты</h2>
       <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис:</p>
       <img src="https://via.placeholder.com/150x100" alt="Схема на карте">
       <button class="contacts-button">Заблудились? Напишите нам!</button>
-    </div>
+    </section>
   </main>
 
   <footer>
