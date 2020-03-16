@@ -1,0 +1,23 @@
+{
+  "name": "296799-technomart-26",
+  "version": "1.0.0",
+  "description": "* Студент: [Dmitry Pukach](https://up.htmlacademy.ru/htmlcss/26/user/296799). * Наставник: `Keks`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cusoq/296799-technomart-26.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cusoq/296799-technomart-26/issues"
+  },
+  "homepage": "https://github.com/cusoq/296799-technomart-26#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
