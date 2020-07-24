@@ -14,10 +14,14 @@
 
 <body>
   <header class="main-header">
+    <div class="main-header__top-menu">
     <a class="main-header-logo">Техномарт</a>
     <span class="main-header-search">Поиск</span>
     <a class="main-header-cart">Корзина</a>
     <a class="main-header-booking">Заказать</a>
+  </div>
+
+  <div class="main-header__main-header-container">
     <p class="main-header-dscription">Интернет-магазин Интернет-магазин Интернет-магазин</p>
     <span class="phone">123456789</span>
     <p class="address">Санкт-Петербург, Б.Конюшенная</p>
@@ -32,35 +36,37 @@
       <a class="main-header-menu__item" href="#">Доставка</a>
       <a class="main-header-menu__item" href="#">Контакты</a>
     </nav>
+  </div>   <!-- конец main-header__main-header-container -->
   </header>
-  <main>
+
+  <main class="main-page">
     <h1 class="visually-hidden">Техномарт, главная страница</h1>
-    <section class="all-goods-services">
+    <section class="goods-types">
       <!-- <div> -->
         <h2 class="visually-hidden">Все товары и услуги:</h2>
         <!-- <button>Все популярные товары</button> -->
       <!-- </div> -->
-      <ul>
-        <li>
-          <img src="https://via.placeholder.com/70x190" alt="материалы">
+      <ul class="goods-types_list">
+        <li class="goods-types_item--materials">
+          <!-- <img src="https://via.placeholder.com/70x190" alt="материалы"> -->
         </li>
-        <li>
-          <img src="https://via.placeholder.com/70x190" alt="инструмент">
+        <li class="goods-types_item--instruments">
+          <!-- <img src="https://via.placeholder.com/70x190" alt="инструмент"> -->
         </li>
-        <li>
-          <img src="https://via.placeholder.com/70x190" alt="техника">
+        <li class="goods-types_item--technic">
+          <!-- <img src="https://via.placeholder.com/70x190" alt="техника"> -->
         </li>
-      </ul>
-      <div class="main-slider">
-        <img src="https://via.placeholder.com/370x290" alt="Дрели">
+      <!-- </ul> -->
+      <li class="goods-types_item--main-slider">
+        <!-- <img src="https://via.placeholder.com/370x290" alt="Дрели"> -->
         <a href="catalog.html">Открыть каталог</a>
-      </div>
-      <ul>
-        <li>
-          <img src="https://via.placeholder.com/70x190" alt="скидки">
+      </li>
+      <!-- <ul> -->
+        <li class="goods-types_item--discount">
+          <!-- <img src="https://via.placeholder.com/70x190" alt="скидки"> -->
         </li>
-        <li>
-          <img src="https://via.placeholder.com/70x190" alt="доставка">
+        <li class="goods-types_item--delivery">
+          <!-- <img src="https://via.placeholder.com/70x190" alt="доставка"> -->
         </li>
 
       </ul>
@@ -180,7 +186,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="page-footer">
     <a class="footer-logo">Техномарт</a>
     <p class="footer-contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
     <ul class="footer-menu">

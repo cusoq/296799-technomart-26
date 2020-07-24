@@ -1,0 +1,52 @@
+.goods-types {
+  background-color: aqua;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.goods-types_list {
+  width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "materials instruments technic"
+  "slider slider discount"
+  "slider slider delivery";
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows:
+  123px
+  123px
+  123px;
+  grid-gap: 20px;
+  background-color: coral;
+}
+
+.goods-types_item--materials {
+  grid-area: materials;
+  outline: 2px magenta dashed;
+}
+
+.goods-types_item--instruments {
+  grid-area: instruments;
+  outline: 2px magenta dashed;
+}
+
+.goods-types_item--technic {
+  grid-area: technic;
+  outline: 2px magenta dashed;
+}
+
+.goods-types_item--main-slider {
+  grid-area: slider;
+  outline: 2px yellow dashed;
+}
+
+.goods-types_item--discount {
+  grid-area: discount;
+  outline: 2px magenta dashed;
+}
+
+.goods-types_item--delivery {
+  grid-area: delivery;
+  outline: 2px magenta dashed;
+}
